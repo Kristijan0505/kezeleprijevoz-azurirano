@@ -5,6 +5,32 @@ import SectionTitle from '../ui/SectionTitle';
 const PopularTrips: React.FC = () => {
   const trips = [
     {
+      id: 13,
+      title: '13 izlet u Krapinu i Trakošćan',
+      description: '07:30 – Polazak iz Čazme (moguć ukrcaj i na stajalištima prema Zagrebu uz prethodni dogovor)',
+      imageUrl: 'https://scontent.fzag1-2.fna.fbcdn.net/v/t39.30808-6/491592931_656896190432448_1123035946903958349_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zsDyYEJI7IEQ7kNvwE2msN_&_nc_oc=Adkp4TH_XijfQNuaO6OEpGoAqkYAkbjxVDQP90iB2iTBUyoHoLR9vyc3g1j6WSRF0g0&_nc_zt=23&_nc_ht=scontent.fzag1-2.fna&_nc_gid=4lFJRdLBOPn9Cqg5KTK8cg&oh=00_AfJB2xGlcx9CQ6kQtoossa4xYswbCeiIrM1QWD4Jr_oPfg&oe=6824E20E',
+      iconName: 'Palmtree',
+      width: 800,
+      height: 600,
+      detailedDescription: 'Doživite bogate povijesne i prirodne ljepote kontinentalne Hrvatske. Tijekom izleta posjetit ćemo Muzej krapinskih neandertalaca, jedan od najmodernijih muzeja u Hrvatskoj, i dvorac Trakošćan - romantičan dvorac iz 13. stoljeća smješten u prekrasnom prirodnom okruženju. Izlet uključuje stručno vođenje, ulaznice za muzej i dvorac, te slobodno vrijeme za osobno istraživanje i ručak.',
+      duration: '1 dan',
+      price: 'Od 45€ po osobi',
+      includes: [
+        'Autobusni prijevoz turističkim autobusom',
+        'Stručno vodstvo tijekom putovanja',
+        'Ulaznice za Muzej krapinskih neandertalaca',
+        'Ulaznice za dvorac Trakošćan',
+        'Osiguranje putnika i organizacije putovanja',
+        'afnkljasfljlasjlfja'
+      ],
+      excludes: [
+        'Ručak (mogućnost dogovora)',
+        'Osobne troškove',
+        'Dodatne sadržaje koji nisu navedeni u programu'
+      ],
+      startLocation: 'Čazma (07:30), Bjelovar, Osijek'
+    },
+    {
       id: 12,
       title: 'Izlet u Krapinu i Trakošćan',
       description: '07:30 – Polazak iz Čazme (moguć ukrcaj i na stajalištima prema Zagrebu uz prethodni dogovor)',
