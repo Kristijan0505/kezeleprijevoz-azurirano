@@ -4,9 +4,144 @@ import SectionTitle from '../ui/SectionTitle';
 
 const PopularTrips: React.FC = () => {
   const trips = [
-    {
+   {
+      id: 14,
+      title: 'Soča i Kobarid',
+      description: '05:00 – Polazak iz Bjelovara-Čazma-Ivanić Grad-Zagreb- Buzin',
+      imageUrl: 'https://i.postimg.cc/VvyhQZCh/Kezele-So-a-Kobarid.png',
+      iconName: 'Palmtree',
+      width: 800,
+      height: 600,
+      detailedDescription: '🏞 PUTOVANJE U SLOVENIJU: KOBARID & TOLMINSKA KORITA 
+
+Datum: Subota, 28. svibnja 2025. 
+ Polazak: 05:00 h – Bjelovar, 05:30 – Dolazak u Čazmu (moguć ukrcaj putnika), 05:50 – Križ, 06:00 – Dolazak u Ivanić Grad (putem prolazimo kroz Graberje), 06:40 – Ulazak u Zagreb (Buzin), nastavak prema Rugvici, 11:00 – Dolazak u Kobarid, Slovenija 
+
+ 
+
+📌 PLAN I PROGRAM PUTOVANJA:  
+
+📍 DESTINACIJE I AKTIVNOSTI 
+
+🏘 Kobarid 
+
+Smješten u srcu doline Soče, Kobarid je mjesto bogate povijesti i nevjerojatne prirode. Grad je poznat po Kobariškoj bitki iz Prvog svjetskog rata, ali i po svojoj jedinstvenoj mješavini prirodnih ljepota i kulturne baštine. 
+
+🔹 Napoleonov most 
+
+Jedan od najpoznatijih simbola Kobarida. Kameni most preko rijeke Soče datira iz doba Napoleona, a danas je omiljena lokacija za fotografiranje zbog pogleda na kristalno čistu rijeku i alpske pejzaže. 
+
+ 
+
+💧 Slap Kozjak 
+
+Nakon kraće šetnje kroz šumu i duž korita rijeke, dolazimo do jednog od najljepših slapova Slovenije – Slap Kozjak. Smješten unutar prirodnog kamenog amfiteatra, ovaj 15 metara visok slap djeluje bajkovito. 
+ Trajanje šetnje: cca 45 minuta (u oba smjera, lagani uspon) 
+ Napomena: Slap je dostupan isključivo pješice, staza je uređena. 
+
+ 
+
+🌄 Tolminska korita 
+
+Nakon obilaska Kozjaka, putovanje se nastavlja autobusom prema Tolminu, gdje nas očekuje jedna od najpoznatijih prirodnih atrakcija Julijskih Alpa. 
+
+Tolminska korita su duboki klanci koje su izdubile rijeke Tolminka i Zadlaščica. 
+ Ovdje ćete vidjeti: 
+
+Vražiji most – smješten 60 m iznad rijeke Tolminke 
+
+Medvjeđa glava – ogromni kamen zaglavljen između stijena 
+
+Termalni izvor – rijedak prirodni fenomen unutar korita 
+
+Uređena staza duga cca 2 km nudi siguran i ugodan obilazak. 
+
+Trajanje obilaska: cca 1,5 sat (umjeren tempo) 
+
+ 
+
+🍽 Ručak (opcionalno) 
+
+U prirodnom ambijentu neposredno uz korita, postoji mogućnost organiziranog ručka: 
+
+Menu (18 EUR): 
+
+Juha 
+
+Pire krumpir 
+
+Pohano pileće meso 
+
+Pečena šnicla u umaku od gljiva 
+
+Salata 
+
+Desert 
+
+👉 Ručak nije uključen u cijenu putovanja. Potrebna je najava prilikom prijave. 
+
+ 
+
+🔁 Povratak 
+
+18:00 – Polazak iz Tolmina 
+
+Pauza za okrjepu na povratku 
+
+✅ CIJENA: 58,00 EUR 
+
+ 
+
+✅ CIJENA UKLJUČUJE 
+
+Prijevoz turističkim autobusom 
+
+Pratitelj putovanja 
+
+Organizacija i vodstvo od strane agencije 
+
+Ulaznica za Slap Kozjak 
+
+Ulaznica za Tolminska korita 
+
+Osiguranje od odgovornosti 
+
+ 
+
+❌ CIJENA NE UKLJUČUJE 
+
+Organizirani ručak (18 EUR – uz prethodnu najavu) 
+
+Osobna potrošnja (suveniri, dodatne okrjepe, napitci itd.) 
+
+ 
+
+⚠️ VAŽNE INFORMACIJE 
+
+Putovanje uključuje hodanje po prirodnim terenima, usponima i klancima. 
+
+Obavezna udobna i čvrsta obuća – sportska ili planinarska. 
+
+Izlet nije preporučen osobama slabije pokretljivosti. 
+
+Prelazak granice – ne zaboravite osobnu iskaznicu. ',
+      price: ' 58 EUR po osobi',
+      includes: [Prijevoz turističkim autobusom 
+
+Pratitelj putovanja 
+
+Organizacija i vodstvo od strane agencije 
+
+Ulaznica za Slap Kozjak 
+
+Ulaznica za Tolminska korita 
+
+Osiguranje od odgovornosti 
+       
+      ],
+     {
       id: 13,
-      title: '13 izlet u Krapinu i Trakošćan',
+      title: 'Izlet u Krapinu i Trakošćan',
       description: '07:30 – Polazak iz Čazme (moguć ukrcaj i na stajalištima prema Zagrebu uz prethodni dogovor)',
       imageUrl: 'https://scontent.fzag1-2.fna.fbcdn.net/v/t39.30808-6/491592931_656896190432448_1123035946903958349_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zsDyYEJI7IEQ7kNvwE2msN_&_nc_oc=Adkp4TH_XijfQNuaO6OEpGoAqkYAkbjxVDQP90iB2iTBUyoHoLR9vyc3g1j6WSRF0g0&_nc_zt=23&_nc_ht=scontent.fzag1-2.fna&_nc_gid=4lFJRdLBOPn9Cqg5KTK8cg&oh=00_AfJB2xGlcx9CQ6kQtoossa4xYswbCeiIrM1QWD4Jr_oPfg&oe=6824E20E',
       iconName: 'Palmtree',
@@ -21,7 +156,6 @@ const PopularTrips: React.FC = () => {
         'Ulaznice za Muzej krapinskih neandertalaca',
         'Ulaznice za dvorac Trakošćan',
         'Osiguranje putnika i organizacije putovanja',
-        'afnkljasfljlasjlfja'
       ],
       excludes: [
         'Ručak (mogućnost dogovora)',
