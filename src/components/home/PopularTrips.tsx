@@ -9,11 +9,10 @@ const PopularTrips: React.FC = () => {
       title: 'Soča i Kobarid',
       description: '05:00 – Polazak iz Bjelovara-Čazma-Ivanić Grad-Zagreb- Buzin',
       imageUrl: 'https://i.postimg.cc/VvyhQZCh/Kezele-So-a-Kobarid.png',
-      iconName: 'Palmtree',
+      iconName: 'Soča i Kobarid',
       width: 800,
       height: 600,
       detailedDescription: '🏞 PUTOVANJE U SLOVENIJU: KOBARID & TOLMINSKA KORITA 
-
 Datum: Subota, 28. svibnja 2025. 
  Polazak: 05:00 h – Bjelovar, 05:30 – Dolazak u Čazmu (moguć ukrcaj putnika), 05:50 – Križ, 06:00 – Dolazak u Ivanić Grad (putem prolazimo kroz Graberje), 06:40 – Ulazak u Zagreb (Buzin), nastavak prema Rugvici, 11:00 – Dolazak u Kobarid, Slovenija 
 📌 PLAN I PROGRAM PUTOVANJA:  
@@ -47,7 +46,7 @@ Desert
 👉 Ručak nije uključen u cijenu putovanja. Potrebna je najava prilikom prijave. 
 🔁 Povratak 
 18:00 – Polazak iz Tolmina 
-Pauza za okrjepu na povratku 
+Pauza za okrepu na povratku 
 ✅ CIJENA: 58,00 EUR 
 ✅ CIJENA UKLJUČUJE 
 Prijevoz turističkim autobusom 
@@ -58,7 +57,7 @@ Ulaznica za Tolminska korita
 Osiguranje od odgovornosti 
 ❌ CIJENA NE UKLJUČUJE 
 Organizirani ručak (18 EUR – uz prethodnu najavu) 
-Osobna potrošnja (suveniri, dodatne okrjepe, napitci itd.) 
+Osobna potrošnja 
 ⚠️ VAŽNE INFORMACIJE 
 Putovanje uključuje hodanje po prirodnim terenima, usponima i klancima. 
 Obavezna udobna i čvrsta obuća – sportska ili planinarska. 
@@ -71,33 +70,7 @@ Organizacija i vodstvo od strane agencije
 Ulaznica za Slap Kozjak 
 Ulaznica za Tolminska korita 
 Osiguranje od odgovornosti 
-       
-      ],
-     {
-      id: 13,
-      title: 'Izlet u Krapinu i Trakošćan',
-      description: '07:30 – Polazak iz Čazme (moguć ukrcaj i na stajalištima prema Zagrebu uz prethodni dogovor)',
-      imageUrl: 'https://scontent.fzag1-2.fna.fbcdn.net/v/t39.30808-6/491592931_656896190432448_1123035946903958349_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zsDyYEJI7IEQ7kNvwE2msN_&_nc_oc=Adkp4TH_XijfQNuaO6OEpGoAqkYAkbjxVDQP90iB2iTBUyoHoLR9vyc3g1j6WSRF0g0&_nc_zt=23&_nc_ht=scontent.fzag1-2.fna&_nc_gid=4lFJRdLBOPn9Cqg5KTK8cg&oh=00_AfJB2xGlcx9CQ6kQtoossa4xYswbCeiIrM1QWD4Jr_oPfg&oe=6824E20E',
-      iconName: 'Palmtree',
-      width: 800,
-      height: 600,
-      detailedDescription: 'Doživite bogate povijesne i prirodne ljepote kontinentalne Hrvatske. Tijekom izleta posjetit ćemo Muzej krapinskih neandertalaca, jedan od najmodernijih muzeja u Hrvatskoj, i dvorac Trakošćan - romantičan dvorac iz 13. stoljeća smješten u prekrasnom prirodnom okruženju. Izlet uključuje stručno vođenje, ulaznice za muzej i dvorac, te slobodno vrijeme za osobno istraživanje i ručak.',
-      duration: '1 dan',
-      price: 'Od 45€ po osobi',
-      includes: [
-        'Autobusni prijevoz turističkim autobusom',
-        'Stručno vodstvo tijekom putovanja',
-        'Ulaznice za Muzej krapinskih neandertalaca',
-        'Ulaznice za dvorac Trakošćan',
-        'Osiguranje putnika i organizacije putovanja',
-      ],
-      excludes: [
-        'Ručak (mogućnost dogovora)',
-        'Osobne troškove',
-        'Dodatne sadržaje koji nisu navedeni u programu'
-      ],
-      startLocation: 'Čazma (07:30), Bjelovar, Osijek'
-    },
+    }
     {
       id: 12,
       title: 'Izlet u Krapinu i Trakošćan',
@@ -122,59 +95,7 @@ Osiguranje od odgovornosti
         'Dodatne sadržaje koji nisu navedeni u programu'
       ],
       startLocation: 'Čazma (07:30), moguć ukrcaj prema Zagrebu'
-    },
-    {
-      id: 11,
-      title: 'Etno Selo',
-      description: 'Nezaboravan Izlet od 21.06.-22.06',
-      imageUrl: 'https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/492364208_662115276577206_6878523898477944732_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tFfZi9pIic8Q7kNvwHIsd8L&_nc_oc=AdkHKBYegjTbtoVmOLEHXq0ceRlxewkhbhMIAqegnwFY64RcJlRvl2floKjd-bDuVCE&_nc_zt=23&_nc_ht=scontent.fzag4-1.fna&_nc_gid=6syF7cDYThbbOUcg2nafkA&oh=00_AfFSHp-hTlESh49Cmm8ru86OD5kpL5rcXh_mWAEqXqW2FA&oe=681D8113',
-      iconName: 'Palmtree',
-      width: 800,
-      height: 600,
-      detailedDescription: 'Doživite autentično iskustvo u tradicionalnom etno selu gdje se prošlost susreće sa sadašnjošću. Ovaj dvodnevni izlet nudi jedinstvenu priliku za upoznavanje s tradicijskim običajima, arhitekturom i gastronomijom. Posjetit ćete autohtone seoske kuće, sudjelovati u radionicama starih zanata i uživati u tradicionalnoj hrani pripremljenoj po receptima naših baka.',
-      duration: '2 dana (21.06.-22.06.)',
-      price: 'Od 95€ po osobi',
-      includes: [
-        'Autobusni prijevoz turističkim autobusom',
-        'Smještaj u tradicionalnim kućama (1 noćenje)',
-        'Puni pansion (doručak, ručak, večera)',
-        'Sudjelovanje u svim radionicama',
-        'Stručno vodstvo',
-        'Osiguranje putnika i organizacije putovanja'
-      ],
-      excludes: [
-        'Osobne troškove',
-        'Dodatne aktivnosti izvan programa',
-        'Putno zdravstveno osiguranje'
-      ],
-      startLocation: 'Čazma, Bjelovar (po dogovoru)'
-    },
-    {
-      id: 1,
-      title: 'Etno Selo Stanišić',
-      description: 'Nezaboravan Izlet od 21.06.-22.06',
-      imageUrl: 'https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/492538786_662984746490259_4430216144466043393_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tNXPjiBhKG4Q7kNvwGl9SAX&_nc_oc=AdncCX7QA7dGl5O6-XObuQ3Awd2TJDEOesJs5UGdKS0-4TPLu3IJRE6krCoPacmBFSM&_nc_zt=23&_nc_ht=scontent.fzag4-1.fna&_nc_gid=bOwpOWcAq_fOzqp110W5xQ&oh=00_AfHYr5P9PWOp8leh3lk7bkVR5h9dth4_00jyg8ZS1shedw&oe=681DADC4',
-      iconName: 'Palmtree',
-      width: 800,
-      height: 600,
-      detailedDescription: 'Etno selo Stanišić jedinstveno je mjesto gdje možete doživjeti autentičnu atmosferu sela iz prošlosti. Tijekom ovog dvodnevnog putovanja, upoznat ćete se s bogatom kulturnom baštinom i tradicijom, uživati u domaćoj hrani i pićima, te sudjelovati u zanimljivim aktivnostima. Selo se sastoji od više od 50 autentičnih kuća, crkava i drugih objekata koji su doneseni iz raznih krajeva i vjerno predstavljaju tradicionalnu arhitekturu.',
-      duration: '2 dana (21.06.-22.06.)',
-      price: 'Od 120€ po osobi',
-      includes: [
-        'Autobusni prijevoz turističkim autobusom',
-        'Smještaj u etno selu (1 noćenje)',
-        'Puni pansion s tradicionalnom kuhinjom',
-        'Obilazak sela uz stručno vodstvo',
-        'Sudjelovanje u tradicionalnim običajima',
-        'Osiguranje putnika i organizacije putovanja'
-      ],
-      excludes: [
-        'Osobne troškove',
-        'Dodatne aktivnosti po želji',
-        'Putno zdravstveno osiguranje'
-      ],
-      startLocation: 'Čazma, Bjelovar (po dogovoru)'
-    },
+    }
     {
       id: 2,
       title: 'Plitvička Jezera',
