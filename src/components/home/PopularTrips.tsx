@@ -147,34 +147,8 @@ Osiguranje od odgovornosti
       ],
       startLocation: 'Čazma, Bjelovar, Zagreb'
     },
-    {
-      id: 4,
-      title: 'Dubrovnik',
-      description: 'Višednevni izlet do bisera Jadrana, s obilaskom povijesnih znamenitosti.',
-      imageUrl: 'https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg?auto=compress&cs=tinysrgb&w=800',
-      iconName: 'Castle',
-      width: 800,
-      height: 533,
-      detailedDescription: 'Dubrovnik, poznat kao "Biser Jadrana", jedna je od najljepših destinacija na Mediteranu. Tijekom ovog višednevnog putovanja, imat ćete priliku istražiti bogatu povijest i kulturu ovog UNESCO-m zaštićenog grada. Program uključuje obilazak gradskih zidina, Straduna, Onofrijeve fontane, Crkve sv. Vlaha, Kneževog dvora i drugih znamenitosti. Uz organizirane razglede, imat ćete dovoljno slobodnog vremena za samostalno istraživanje skrivenih kutaka grada, kupanje na predivnim plažama ili uživanje u lokalnoj gastronomiji.',
-      duration: '3-4 dana',
-      price: 'Od 240€ po osobi',
-      includes: [
-        'Autobusni prijevoz turističkim autobusom',
-        'Smještaj u hotelu s 3-4* (2-3 noćenja)',
-        'Polupansion (doručak i večera)',
-        'Stručno vodstvo tijekom putovanja',
-        'Razgled Dubrovnika s lokalnim vodičem',
-        'Osiguranje putnika i organizacije putovanja'
-      ],
-      excludes: [
-        'Ulaznice za znamenitosti (gradske zidine i sl.)',
-        'Ručkove i piće uz obroke',
-        'Osobne troškove',
-        'Putno zdravstveno osiguranje'
-      ],
-      startLocation: 'Čazma, Bjelovar, Zagreb'
-    }
-  ];
+    '
+    ];
 
   return (
     <section className="bg-neutral-gray py-16 animate-[wave_15s_ease-in-out_infinite]" id="popular-trips">
